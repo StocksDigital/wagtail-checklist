@@ -1,4 +1,4 @@
-# Wagtail Checlist Demo Website
+# Wagtail Checklist Demo Website
 
 Example app used to showcase a checklist app for Wagtail.
 
