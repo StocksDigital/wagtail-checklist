@@ -18,7 +18,8 @@ Now you can visit `localhost:8000/cms/pages/` to see the Wagtail admin. Username
 
 See `models.py` for the rules implementation. There are some rules already set up:
 
-BlogPage
+####BlogPage
+
     - title
         - must not be blank
         - must be less than 20 characters
@@ -26,7 +27,8 @@ BlogPage
     - body
         - must not be blank
         
-NewsPage
+####NewsPage
+
     - title
         - must not be blank
         - must be less than 20 characters
