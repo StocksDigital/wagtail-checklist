@@ -17,6 +17,10 @@ This is useful if you want to:
   * provide dynamic feedback to your authors _before_ they save the page
   * allow authors to save drafts when rules are violated, but not publish them
 
+## Demo Website
+
+See the README in `demo/` for a demo website that you can play with locally.
+
 ## Dependencies
 
 * Wagtail (2+)
