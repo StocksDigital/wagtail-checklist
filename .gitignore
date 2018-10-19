@@ -1,0 +1,10 @@
+node_modules/
+*.pyc
+__pycache__/
+*.log
+*.egg-info
+dist/
+build/
+.tox/
+.pytest_cache/
+env/

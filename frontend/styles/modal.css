@@ -1,0 +1,53 @@
+@value fail from './colors.css';
+
+.title {
+  color: #fff;
+  padding-left: 0.2rem;
+}
+
+.group {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #404040;
+    border-radius: 0.2rem;
+    color: #fff;
+}
+
+.groupTitle {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 0.8rem;
+}
+
+.list {
+  padding-left: 0.2rem;
+}
+
+.rule + .rule {
+  margin-top: 0.7rem;
+}
+
+.ruleError {
+  color: fail;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.checkMark {
+  border-radius: 0.4rem;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+
+.checkMarkWrapper {
+  margin-right: 0.6rem;
+  padding-top: 0.1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.message {
+  display: inline-block;
+  width: calc(100% - 2rem);
+}
