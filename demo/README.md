@@ -14,4 +14,24 @@ cd demo
 ./manage.py runserver
 ```
 
-No youvisit `localhost:8000/cms/pages/` to see the Wagtail admin. Username and password are `admin` / `z`
+Now you can visit `localhost:8000/cms/pages/` to see the Wagtail admin. Username and password are `admin` / `z`
+
+See `models.py` for the rules implementation. There are some rules already set up:
+
+BlogPage
+    - title
+        - must not be blank
+        - must be less than 20 characters
+        - should be more than 10 characters
+    - body
+        - must not be blank
+        
+NewsPage
+    - title
+        - must not be blank
+        - must be less than 20 characters
+        - should be more than 10 characters
+    - body
+        - must not be blank
+        - must not contain the word 'mongoose'
+        - should contain the word 'news'
