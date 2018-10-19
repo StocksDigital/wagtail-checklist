@@ -147,13 +147,9 @@ Backend API improvements:
 
 Open sourcing requirements:
 
-- isolate JS build system
-- Add a stand-alone requirements.txt
-- JS frontend tests
-- add example screenshots, improve docs
-- add setup.py, publish to PyPI
-- add license
-- use non-hashed component styling to make styles overridable
+- JS frontend tests?
+- add example repository
+- publish to PyPI
 
 ## Author
 
